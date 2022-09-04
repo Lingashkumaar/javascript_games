@@ -1,0 +1,66 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+#board{
+    width: 400px;
+    height: 400px;
+    background-color: #f8d49a;
+    border-radius: 10px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.tile{
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+    border: 5px solid rgba(255, 11, 11, 0.4);
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+}
+.x2{
+    background-color: rgb(203, 203, 203);
+}
+.x4{
+    background-color: rgb(169, 185, 194);
+}
+.x8{
+    background-color: rgb(158, 185, 210);
+}
+.x16{
+    background-color: rgb(131, 219, 219);
+}
+.x32{
+    background-color: rgb(96, 166, 178);
+}
+.x64{
+    background-color: rgb(107, 210, 242);
+}
+.x128{
+    background-color: rgb(96, 221, 221);
+}
+.x256{
+    background-color: rgb(62, 138, 185);
+}
+.x512{
+    background-color: rgb(160, 244, 216);
+}
+.x1024{
+    background-color: rgb(109, 249, 203);
+}
+.x2048{
+    background-color: rgb(221, 72, 72);
+}
+.x4096{
+    background-color: rgb(91, 42, 42);
+}
+.x8192{
+    background-color: red;
+}
